@@ -15,7 +15,7 @@ author:
     linkedin: miklund
 ---
 
-This post is based on a [talk I did at Valtech Tech Day](http://livestream.com/accounts/5134007/events/4101632/videos/89811125 "Property-Based Testing in F# on LiveStream"), 4 June 2015. You can find the [slides for this talk here]("/assets/posts/2015-06-04-property-based-testing-with-fsharp/VTD15 - Property-Based Testing with F#.pdf" "Slides for Property-Based Testing with F#, Valtech Tech Day 2015") and the code examples in a [zip archive here]("/assets/posts/2015-06-04-property-based-testing-with-fsharp/PropertyBasedTesting.zip" "Code Samples for Property-Based Testing with F#, Valtech Tech Day 2015").
+This post is based on a [talk I did at Valtech Tech Day](http://livestream.com/accounts/5134007/events/4101632/videos/89811125 "Property-Based Testing in F# on LiveStream"), 4 June 2015. You can find the [slides for this talk here](/assets/posts/2015-06-04-property-based-testing-with-fsharp/VTD15 - Property-Based Testing with F#.pdf "Slides for Property-Based Testing with F#, Valtech Tech Day 2015") and the code examples in a [zip archive here](/assets/posts/2015-06-04-property-based-testing-with-fsharp/PropertyBasedTesting.zip "Code Samples for Property-Based Testing with F#, Valtech Tech Day 2015").
 
 See the writeup for this whole talk in english below the video and slides.
 

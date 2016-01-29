@@ -11,7 +11,7 @@ Here is a list of all the presentations I've done on numerous occations. The lis
 
 _June 4, 2015_
 
-## Property-based testing with F#
+## Property-based testing with F&num;
 
 I did a presntation at Valtech Tech Days 2015 on property-based testing with F#. An interesting technique where you generate data in order to test your APIs.
 
@@ -24,7 +24,7 @@ I did a presntation at Valtech Tech Days 2015 on property-based testing with F#.
 
 _May 13, 2015_
 
-## Testing with F#
+## Testing with F&num;
 
 This was a morning seminar where I was doing a summary of my book Testing with F#, going through the most important tools an techniques. 
 
@@ -47,7 +47,7 @@ I did an internal lunch presentation at Valtech on how to implement your own lan
 
 _February 18, 2013_
 
-## Sharpen your saw #5: Rock Paper Scissors
+## Sharpen your saw &num;5: Rock Paper Scissors
 
 I was doing a series of competence activities where we would meet over lunch and solve problems together in pairs. This was done in order to share experiences between technology stacks, .NET, Java and Open Source. This time the participants should create a client that could connect to my server and play Rock Paper Scissors with other clients.
 
@@ -58,7 +58,7 @@ I was doing a series of competence activities where we would meet over lunch and
 
 _February 7, 2013_
 
-## Sharpen your saw #4: Immutable Thesaurus
+## Sharpen your saw &num;4: Immutable Thesaurus
 
 I was doing a series of competence activities where we would meet over lunch and solve problems together in pairs. This was done in order to share experiences between technology stacks, .NET, Java and Open Source. This time the participants should create an immutable thesaurus with a given public API.
 
@@ -69,7 +69,7 @@ I was doing a series of competence activities where we would meet over lunch and
 
 _November 11, 2012_
 
-## Sharpen your saw #3: Ceasar Cipher
+## Sharpen your saw &num;3: Ceasar Cipher
 
 I was doing a series of competence activities where we would meet over lunch and solve problems together in pairs. This was done in order to share experiences between technology stacks, .NET, Java and Open Source. This time the participants would create an encryption algorith, decrypt a message and even break a weak encrypted message.
 
@@ -80,7 +80,7 @@ I was doing a series of competence activities where we would meet over lunch and
 
 _October 15, 2012_
 
-## Sharpen your saw #2
+## Sharpen your saw &num;2
 
 I was doing a series of competence activities where we would meet over lunch and solve problems together in pairs. This was done in order to share experiences between technology stacks, .NET, Java and Open Source.
 
@@ -90,7 +90,7 @@ I was doing a series of competence activities where we would meet over lunch and
 
 _September 17, 2012_
 
-## Sharpen your saw #1
+## Sharpen your saw &num;1
 
 I was doing a series of competence activities where we would meet over lunch and solve problems together in pairs. This was done in order to share experiences between technology stacks, .NET, Java and Open Source.
 
@@ -180,5 +180,7 @@ _March 10, 2009_
 ## Continuous Integration with EPiServer CMS
 
 Me and Emil Birgersson held a presentation at EPiServer Days 2009 about using continuous integration with EPiServer CMS development in order to empower the application life cycle.
+
+![Mikael Lundin and Emil Birgersson presenting at EPiServer Days 2009](episerver_day_2009.jpg)
 
 ---

@@ -2,10 +2,10 @@
 layout: post
 title: "Beginners guide to Arexx"
 description: 
-date: 2016-02-05 14:54:09
+date: 2016-02-09 14:54:09
 tags: 
-assets: assets/posts/2016-02-05-beginners-guide-to-arexx
-image: assets/posts/2016-02-05-beginners-guide-to-arexx/title.jpg
+assets: assets/posts/2016-02-09-beginners-guide-to-arexx
+image: assets/posts/2016-02-09-beginners-guide-to-arexx/title.jpg
 
 author: 
     name: Mikael Lundin

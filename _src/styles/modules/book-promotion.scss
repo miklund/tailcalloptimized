@@ -1,0 +1,85 @@
+.book-promotion {
+
+    display: block;
+    text-indent: -9999px;
+    color: transparent;
+    margin-top: 1em;
+    margin-bottom: 1em;
+
+    /* mobile devices */
+    @media (max-width: $screen-xs-max) {
+        width: 290px;
+        height: 100px;
+        background: #000 url('../img/1232_mobile.jpg') no-repeat top left;
+        clear: both;
+    }
+
+    /* tablet devices */
+    @media (min-width: $screen-sm-min) and (max-width: $screen-md-max) {
+        width: 910px;
+        height: 200px;
+        background: #000 url('../img/1232_tablet.jpg') no-repeat top left;
+        clear: both;
+    }
+
+    @media (min-width: $screen-lg-min) {
+        width: 255px;
+        height: 500px;
+        background: #000 url('../img/1232_desktop.jpg') no-repeat top left;
+        float: right;
+    }
+}
+
+.meta {
+    margin-bottom: 2em;
+
+    .profile-image {
+        width: 100px;
+        height: 100px;
+        border-radius: 50px;
+    }
+
+    .author-name {
+        white-space: nowrap;
+        font-size: $font-size-small;
+        font-style: italic;
+        color: $gray;
+        text-decoration: none;
+        line-height: 32px;
+    }
+
+    .social-media-icons {
+        white-space: nowrap;
+        clear: both;
+        color: $link-color;
+        font-size: $font-size-base;
+        line-height: 24px;
+    }
+
+
+    // float left on small devices and change order of elements
+    @media (max-width: $screen-md-max) {
+        text-align: left;
+
+        .profile-image {
+            float: left;
+	    margin-right: 1em;
+	    margin-bottom: 1em;
+        }
+
+        .author-info {
+            padding-top: 1em;
+	    display: block;
+	    float: left;
+        }
+
+        .author-name {
+            display: block;
+            width: 100%;
+        }
+
+        .social-media-icons {
+            display: inline;
+        }
+    }
+}

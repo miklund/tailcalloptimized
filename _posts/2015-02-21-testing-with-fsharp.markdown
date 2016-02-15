@@ -15,7 +15,7 @@ author:
     linkedin: miklund
 ---
 
-In July 2014 I was contacted by PACKT Publishing if I was interested in writing a title for them about [Testing with F#](https://www.packtpub.com/application-development/testing-f). I did some serious thinking and came to the conclusion that, yes I have the knowledge to write that book and, yes I want to write that book.
+In July 2014 I was contacted by PACKT Publishing if I was interested in writing a title for them about [Testing with F#](http://bit.ly/1QKppHM). I did some serious thinking and came to the conclusion that, yes I have the knowledge to write that book and, yes I want to write that book.
 
 I asked my wife three times
 
@@ -55,7 +55,7 @@ In this book I have taken my two favorite principles of functional programming p
 
 ## Testing with F# at PACKT
 
-Please go check out [the book at PACKT](https://www.packtpub.com/application-development/testing-f).
+Please go check out [the book at PACKT](http://bit.ly/1QKppHM).
 
 UPDATE: Now [also on Amazon](http://www.amazon.com/Testing-F-Mikael-Lundin/dp/1784391239/ "Testing with F# on Amazon").
 

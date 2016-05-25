@@ -64,20 +64,7 @@ Let's first take a look at how the tree is built.
 
 If we're to visualize this in javascript it would look like this.
 
-```js
-new Expression('-',
-    new Value(1),
-    new Expression('+',
-        new Value(2),
-        new Expression('-',
-            new Value(3),
-            new Expression('+',
-                new Value(4),
-                new Value(5))
-            )
-        )
-    );
-```
+{% gist miklund/b82fa0c82c65c8b570f05089b9ba5578 expressionTree.js %}
 
 What I would like to do in the `Expression` constructor, is to rotate the tree to the left. This is not that hard to do if you think of it.
 
@@ -86,20 +73,7 @@ What I would like to do in the `Expression` constructor, is to rotate the tree t
 
 Doing this in javascript is surprisingly easy.
 
-```js
-function leftRotate(node) {
-    var rightNode = node.right;
-
-    // right is a node and not a leaf
-    if (rightNode.nodeType === 'node') {
-        node.right = rightNode.left;
-        rightNode.left = node;
-        return leftRotate(rightNode);
-    }
-
-    return rightNode;
-};
-```
+{% gist miklund/b82fa0c82c65c8b570f05089b9ba5578 leftRotate.js %}
 
 ![rotating the full tree left bottom up](/assets/posts/2016-05-25-left-rotate-a-binary-tree-in-javascript/fullLeftRotation.png)
 
@@ -107,48 +81,10 @@ For every node that is added, it needs to be left rotated until there is no more
 
 This function works very well when working the tree from outside the Expression, but what I try to do, is to rotate the tree in the constructor as the tree is being created.
 
-```js
-var Expression = function(content, left, right) {
-    this.content = content;
-    this.left = left;
-    this.right = right;
-
-    // ERROR: this is not assignable
-    this = leftRotate(this);
-};
-```
+{% gist miklund/b82fa0c82c65c8b570f05089b9ba5578 expression.js %}
 
 Since the constructor cannot assign this, there is no way to do this as clean as before. We need to rewrite `leftRotate` so it copy the references and content instead of moving the entire node down the tree.
 
-```js
-function leftRotate(node) {
-    var rightNode = node.right;
-
-    // right is a node and not a leaf
-    if (rightNode.nodeType === 'node') {
-        // copy node content
-        var content = node.content;
-        node.content = rightNode.content;
-        rightNode.content = content;
-
-        // left rotation
-        node.right = rightNode.right;
-        rightNode.right = rightNode.left;
-        rightNode.left = node.left;
-        node.left = rightNode;
-
-        leftRotate(rightNode);
-    }
-};
-
-var Expression = function(content, left, right) {
-    this.content = content;
-    this.left = left;
-    this.right = right;
-
-    // left rotate this node down the tree
-    leftRotate(this);
-};
-```
+{% gist miklund/b82fa0c82c65c8b570f05089b9ba5578 complete.js %}
 
 This is not as pure as the first solution, but this actually works inside the Expression constructor by simply mutating the binary tree in a left rotation.

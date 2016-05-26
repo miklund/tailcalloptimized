@@ -60,7 +60,7 @@ This is easy enough when you have a complete tree that you want to rotate, the p
 
 Let's first take a look at how the tree is built.
 
-![how the right tree is being built](/assets/posts/2016-05-25-left-rotate-a-binary-tree-in-javascript/rightTreeBuilt.png)
+![how the right tree is being built](/assets/posts/2016-05-25-left-rotate-a-binary-tree-in-javascript/rightTreeBuild.png)
 
 If we're to visualize this in javascript it would look like this.
 

@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "Micro services, a developer's choice"
-description: 
+description:  How come none is contradicting developers lamantations of micro services being the silver bullet?
 date: 2016-06-07 19:46:10
-tags: 
+tags: micro services, dba, it operations, cloud
 assets: assets/posts/2016-06-07-micro-services-a-developers-choice
 image: assets/posts/2016-06-07-micro-services-a-developers-choice/title.jpg
 
@@ -16,9 +16,9 @@ author:
     linkedin: miklund
 ---
 
-_We only hear the benefits of micro services, but we never hear about the downsides. How is it that there is none contradicting developers lamantations that this is the silver bullet?
+_We only hear the benefits of micro services, but we never hear about the downsides. How is it that there is none contradicting developers lamantations that this is the silver bullet?_
 
-Here is a little long elaboration on developers have removed all reasonable doubt._
+_Here is a little long elaboration on developers have removed all reasonable doubt._
 
 ## The death of a DBA
 

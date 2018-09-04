@@ -8,7 +8,6 @@ var gulp = require('gulp'),
     imagemin = require('gulp-imagemin'),
     rename = require('gulp-rename'),
     concat = require('gulp-concat'),
-    notify = require('gulp-notify'),
     cache = require('gulp-cache'),
     livereload = require('gulp-livereload'),
     bower = require('gulp-bower'),
@@ -38,7 +37,7 @@ var build = {
 };
 
 gulp.task('styles', function() {
-    return sass(build.styles.source, { 
+    return sass(build.styles.source, {
             style: 'expanded',
             loadPath: [
                 '_src/styles',
@@ -50,8 +49,7 @@ gulp.task('styles', function() {
         .pipe(gulp.dest(build.styles.target))
         .pipe(rename({suffix: '.min'}))
         .pipe(minifycss())
-        .pipe(gulp.dest(build.styles.target))
-        .pipe(notify({ message: 'Styles task complete' }));
+        .pipe(gulp.dest(build.styles.target));
 });
 
 gulp.task('scripts', function() {
@@ -62,21 +60,19 @@ gulp.task('scripts', function() {
         .pipe(gulp.dest(build.scripts.target))
         .pipe(rename({suffix: '.min'}))
         .pipe(uglify())
-        .pipe(gulp.dest(build.scripts.target))
-        .pipe(notify({ message: 'Script task complete' }));
+        .pipe(gulp.dest(build.scripts.target));
 });
 
 gulp.task('images', function() {
     return gulp.src(build.images.source)
         .pipe(cache(imagemin({ optimizationLevel: 3, progressive: true, interlaced: true })))
-        .pipe(gulp.dest(build.images.target))
-        .pipe(notify({ message: 'Images task complete' }));
+        .pipe(gulp.dest(build.images.target));
 });
 
 gulp.task('icons', function() {
     return gulp.src(build.bower.target + '/fontawesome/fonts/**.*')
         .pipe(gulp.dest(build.icons.target));
-}); 
+});
 
 gulp.task('clean', function(cb) {
     del([build.styles.target, build.scripts.target, build.images.target], cb);

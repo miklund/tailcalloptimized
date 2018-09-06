@@ -18,10 +18,8 @@
 
         {% if page.path contains '_posts' %}
             {% include disqus.html %}
-            {% include analytics.html %}
             {% include pagescript.html %}       
         {% else %}
-            {% include analytics.html %}
             {% include pagescript.html %}       
         {% endif %}
     </body>

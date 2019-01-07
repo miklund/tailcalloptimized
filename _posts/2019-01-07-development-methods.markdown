@@ -5,7 +5,7 @@ description: "Considering how we go from nothing to an implemented feature. What
 date: 2019-01-07 19:57:02
 tags: tdd 
 assets: assets/posts/2019-01-07-development-methods
-image: assets/posts/2019-01-07-development-methods/title.jpg
+image: 
 
 author: 
     name: Mikael Lundin
@@ -15,8 +15,6 @@ author:
     github: miklund
     linkedin: miklund
 ---
-
-# Development Method
 
 I'm a TDD practitioner, in the sense that I write my tests first. I am a test first developer, a red-green-refactor cultist. I'm very open about it and it offends people. They want to discuss tests with me, tell me that they've tried this unit test thing and it doesn't work, and they want me to convince them that unit testing is the only way so they can complain later about my dogmatism.
 

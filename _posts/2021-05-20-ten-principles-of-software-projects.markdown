@@ -108,7 +108,7 @@ We do not
 * Communicate in silos
 * Let prestige stop us from doing what's best for the project
 
-## 9. We design solutions not until it is time to implement
+## 9. We design solutions just in time for implementation
 
 There is a short due date to design. That is why we do our requirements gathering, graphical design, solution architecture first when it's time to start working on the task. 
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "100 Interview Questions for Software Developers"
-description: "Recruiting software developers I aim for the interview to be a conversation instead of a knowledge test."
+description: "Recruiting software developers."
 date: 2021-07-16 20:55:02
 tags: recruitment
 assets: assets/posts/2021-07-16-100-interview-questions-for-software-developers

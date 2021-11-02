@@ -18,30 +18,30 @@ author:
 
 Github Copilot is a new service from Github that is currently in preview, and I’ve had the opportunity to take it for a spin. This service integrates with your IDE, helping you to write code by giving suggestions. It does this with the use of AI, which gives context sensitive, and very accurate results.
 
-Go here and read about it to learn more.
+[Go here and read about it to learn more.](https://copilot.github.com)
 
 ## My Experience
 
-I was writing some elaborate text transformation logic and decided to try out Copilot. The quality of the suggestions were good enough that I didn’t had to write much code at all. I wrote some function signatures and could tab myself through the development. What I was expecting to take several evenings of coding, was done in 30 minutes. The productivity boost was enormous.
+I was writing some elaborate text transformation logic and decided to try out Copilot. The quality of the suggestions were good enough that I didn’t have to write much code at all. I wrote some function signatures and could tab myself through the development. Functionality I expected would take several evenings of coding, was done in 30 minutes. The productivity boost was enormous.
 
 In short what happened during this time
 
 - My workflow changed from writing code to directing Copilot to write the correct code for me
-- The generated code took advantage of the code I already written
+- The generated code took advantage of the code I'd already written
 - There was very little need for adjustments or fixing the code that was generated
 - The generated code was working as expected on the first run
-- I didn’t spend time unit testing, discovering my solution, because it was generated code
+- I didn’t spend time unit testing. Couldn't really see the point for the generated code
 
 ## The Implications
 
 I’m thinking about what will happen if this way of programming becomes the norm.
 
-- Productivity will sky rocket. Every developer will produce much more code.
+- Productivity will sky rocket. Every developer will produce much more code
 - Instead of writing code, workflow will focus around generating the code that you want
 - There is no need to understand the code you generate as long as it works
-- Systems will become less maintainable, focus will shift to rewrite since its cheaper
+- Systems will become less maintainable, focus will shift to rewrite since it's cheaper
 - Manually writing code, will be considered as writing assembly without a compiler today
 
-The big paradigm    shift will be that system developers will drive the code generation to do what they want, instead of writing all the code as we do today.
+The big paradigm    shift will be that system developers will drive the code generation to do what they want, instead of writing the code as we do today.
 
 What do you think?

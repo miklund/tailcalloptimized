@@ -28,8 +28,8 @@ Create React App has built-in support for .env files. When you build the applica
 
 Basically it supports using different configurations for development `npm start`, production `npm run build` and testing `npm test`. It doesn't support environments like test, staging and production. It is also strongly discouraged to commit .env files to source control.
 
-Documentation for .env files.
-https://create-react-app.dev/docs/adding-custom-environment-variables/
+Documentation for .env files.  
+[https://create-react-app.dev/docs/adding-custom-environment-variables/](https://create-react-app.dev/docs/adding-custom-environment-variables/)
 
 ## Dynamic Rendering
 
@@ -52,8 +52,8 @@ The bad news is that your application is now dependent on external state, and th
 
 I couldn't use the dynamic technique this time as my React files are statically hosted.
 
-Some official documentation.
-https://create-react-app.dev/docs/title-and-meta-tags#generating-dynamic-meta-tags-on-the-server
+Some official documentation.  
+[https://create-react-app.dev/docs/title-and-meta-tags#generating-dynamic-meta-tags-on-the-server](https://create-react-app.dev/docs/title-and-meta-tags#generating-dynamic-meta-tags-on-the-server)
 
 ## Fetch Configuration on Startup
 
@@ -92,7 +92,7 @@ Next, I create two files that I **don't** commit to source control.
 
 These files contain configurations for staging and production environment. As I've been using Azure DevOps I upload these files to the _secure file area_.
 
-![Upload to Secure Files in DevOps](assets/2021-11-03-configure-react-with-defferent-environment-settings/secret-files.png)
+![Upload to Secure Files in DevOps](/assets/2021-11-03-configure-react-with-defferent-environment-settings/secret-files.png)
 
 Next, I modify the build pipeline. Since Docker images are immutable I'll have to build one image for each environment.
 

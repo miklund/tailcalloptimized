@@ -4,8 +4,8 @@ title: "Configure React with different Environment Settings"
 description: "Some techniques for configuring a React application."
 date: 2021-11-03 20:39:02
 tags: development
-assets: assets/2021-11-03-configure-react-with-defferent-environment-settings
-image: assets/posts/2021-11-03-configure-react-with-defferent-environment-settings/title.png
+assets: assets/2021-11-03-configure-react-with-different-environment-settings
+image: assets/posts/2021-11-03-configure-react-with-different-environment-settings/title.png
 
 author:
   name: Mikael Lundin
@@ -92,7 +92,7 @@ Next, I create two files that I **don't** commit to source control.
 
 These files contain configurations for staging and production environment. As I've been using Azure DevOps I upload these files to the _secure file area_.
 
-![Upload to Secure Files in DevOps](/assets/2021-11-03-configure-react-with-defferent-environment-settings/secret-files.png)
+![Upload to Secure Files in DevOps](/assets/2021-11-03-configure-react-with-different-environment-settings/secret-files.png)
 
 Next, I modify the build pipeline. Since Docker images are immutable I'll have to build one image for each environment.
 
